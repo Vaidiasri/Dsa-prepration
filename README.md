@@ -21,6 +21,7 @@ A comprehensive 9-day DSA learning program covering fundamental algorithms, arra
 13. [Day 13: Recursive List Reversal](#day-13-recursive-list-reversal)
 14. [Day 14: Selection Sort](#day-14-selection-sort)
 15. [Day 15: Bubble Sort](#day-15-bubble-sort)
+16. [Day 16: Insertion Sort](#day-16-insertion-sort)
 
 ---
 
@@ -356,6 +357,26 @@ Query 5: Output = 2
 
 ---
 
+## Day 16: Insertion Sort
+
+**File:** `day16/insertion_sort.py`
+
+**Concept:** A straightforward sorting algorithm that builds the final sorted array one element at a time, moving each element to its correct position within the already sorted part of the array.
+
+**Algorithm:**
+
+1. Iterate from the second element (index 1) to the end of the array.
+2. Compare the current element (key) to its predecessors.
+3. Shift all elements greater than the key one position to the right to make space.
+4. Insert the key into its correct position.
+
+**Complexity:**
+
+- Time Complexity: O(n²) worst and average case; O(n) best case
+- Space Complexity: O(1)
+
+---
+
 ## 📊 Learning Progress Summary
 
 | Day | Topic                  | Difficulty  | Concepts Covered            |
@@ -375,6 +396,7 @@ Query 5: Output = 2
 | 13  | Recursive Reversal     | ⭐⭐ Medium | Pointer manipulation        |
 | 14  | Selection Sort         | ⭐⭐ Medium | Sorting Algorithms          |
 | 15  | Bubble Sort            | ⭐⭐ Medium | Sorting Algorithms          |
+| 16  | Insertion Sort         | ⭐⭐ Medium | Sorting Algorithms          |
 
 ---
 
@@ -459,6 +481,8 @@ DDSA/
 │   └── test_selection_sort.py
 ├── day15/
 │   └── Bubble_Sort.py
+├── day16/
+│   └── insertion_sort.py
 └── README.md (This file)
 ```
 
@@ -498,4 +522,4 @@ Feel free to add improvements, optimizations, or additional problems to enhance 
 
 **Last Updated:** March 03, 2026
 
-**Status:** ✅ Complete - 15 Days DSA Journey Tracked
+**Status:** ✅ Complete - 16 Days DSA Journey Tracked
