@@ -19,7 +19,8 @@ def merge_two_array(left,right):
             j=j+1
     return result
 
-left=[1,3,5,7]
-right=[2,4,6,8]
-print(merge_two_array(left,right))
+if __name__ == "__main__":
+    left=[1,3,5,7]
+    right=[2,4,6,8]
+    print(merge_two_array(left,right))
     
