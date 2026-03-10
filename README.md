@@ -22,6 +22,7 @@ A comprehensive 9-day DSA learning program covering fundamental algorithms, arra
 14. [Day 14: Selection Sort](#day-14-selection-sort)
 15. [Day 15: Bubble Sort](#day-15-bubble-sort)
 16. [Day 16: Insertion Sort](#day-16-insertion-sort)
+17. [Day 17: Merge Sort](#day-17-merge-sort)
 
 ---
 
@@ -377,6 +378,29 @@ Query 5: Output = 2
 
 ---
 
+## Day 17: Merge Sort
+
+**Files:** `day17/merge_sort.py`, `day17/merge_two_array.py`
+
+**Concept:** A divide-and-conquer sorting algorithm that divides the array into halves, sorts them recursively, and then merges the sorted halves.
+
+**Algorithm:**
+
+1. **Divide:** Find the middle point to divide the array into two halves.
+2. **Conquer:** Recursively sort both halves using Merge Sort.
+3. **Combine:** Merge the two sorted halves into a single sorted array using a helper function.
+
+**Helper Function (`merge_two_array.py`):**
+
+- Uses two pointers to compare elements from both arrays and builds a sorted result.
+
+**Complexity:**
+
+- Time Complexity: O(n log n) in all cases (best, average, worst).
+- Space Complexity: O(n) due to auxiliary space used for merging.
+
+---
+
 ## 📊 Learning Progress Summary
 
 | Day | Topic                  | Difficulty  | Concepts Covered            |
@@ -397,6 +421,7 @@ Query 5: Output = 2
 | 14  | Selection Sort         | ⭐⭐ Medium | Sorting Algorithms          |
 | 15  | Bubble Sort            | ⭐⭐ Medium | Sorting Algorithms          |
 | 16  | Insertion Sort         | ⭐⭐ Medium | Sorting Algorithms          |
+| 17  | Merge Sort             | ⭐⭐⭐ Hard | Divide and Conquer, Sorting |
 
 ---
 
@@ -483,6 +508,9 @@ DDSA/
 │   └── Bubble_Sort.py
 ├── day16/
 │   └── insertion_sort.py
+├── day17/
+│   ├── merge_sort.py
+│   └── merge_two_array.py
 └── README.md (This file)
 ```
 
@@ -520,6 +548,6 @@ Feel free to add improvements, optimizations, or additional problems to enhance 
 
 ---
 
-**Last Updated:** March 03, 2026
+**Last Updated:** March 10, 2026
 
-**Status:** ✅ Complete - 16 Days DSA Journey Tracked
+**Status:** ✅ Complete - 17 Days DSA Journey Tracked
