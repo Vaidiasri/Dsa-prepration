@@ -23,6 +23,8 @@ A comprehensive 9-day DSA learning program covering fundamental algorithms, arra
 15. [Day 15: Bubble Sort](#day-15-bubble-sort)
 16. [Day 16: Insertion Sort](#day-16-insertion-sort)
 17. [Day 17: Merge Sort](#day-17-merge-sort)
+18. [Day 18: Quick Sort](#day-18-quick-sort)
+19. [Day 19: Duplicate Elements in List](#day-19-duplicate-elements-in-list)
 
 ---
 
@@ -401,6 +403,44 @@ Query 5: Output = 2
 
 ---
 
+## Day 18: Quick Sort
+
+**File:** `day18/Quick_sort.py`
+
+**Concept:** A highly efficient divide-and-conquer sorting algorithm that picks an element as 'pivot' and partitions the given array around the picked pivot.
+
+**Algorithm:**
+
+1. Pick an element (pivot) from the array.
+2. Partitioning: Reorder the array so that all elements with values less than the pivot come before the pivot, and all elements with values greater than the pivot come after it.
+3. Recursively apply the above steps to the sub-arrays of elements with smaller and larger values.
+
+**Complexity:**
+
+- Time Complexity: O(n log n) average; O(n²) worst case.
+- Space Complexity: O(log n) for recursive stack.
+
+---
+
+## Day 19: Duplicate Elements in List
+
+**File:** `day19/Find_dulplicate_element _in_list.py`
+
+**Concept:** Identifying duplicate elements in a list using a frequency map (dictionary) for optimal performance.
+
+**Algorithm:**
+
+1. Initialize an empty dictionary for frequency counting.
+2. Iterate through the list, updating the count for each element in the dictionary.
+3. Iterate through the dictionary and identify keys with a value greater than 1.
+
+**Complexity:**
+
+- Time Complexity: O(n)
+- Space Complexity: O(n)
+
+---
+
 ## 📊 Learning Progress Summary
 
 | Day | Topic                  | Difficulty  | Concepts Covered            |
@@ -422,6 +462,8 @@ Query 5: Output = 2
 | 15  | Bubble Sort            | ⭐⭐ Medium | Sorting Algorithms          |
 | 16  | Insertion Sort         | ⭐⭐ Medium | Sorting Algorithms          |
 | 17  | Merge Sort             | ⭐⭐⭐ Hard | Divide and Conquer, Sorting |
+| 18  | Quick Sort             | ⭐⭐⭐ Hard | Divide and Conquer, Pivot   |
+| 19  | Duplicate Elements     | ⭐⭐ Medium | Frequency Counting, Map     |
 
 ---
 
@@ -511,6 +553,10 @@ DDSA/
 ├── day17/
 │   ├── merge_sort.py
 │   └── merge_two_array.py
+├── day18/
+│   └── Quick_sort.py
+├── day19/
+│   └── Find_dulplicate_element _in_list.py
 └── README.md (This file)
 ```
 
@@ -548,6 +594,6 @@ Feel free to add improvements, optimizations, or additional problems to enhance 
 
 ---
 
-**Last Updated:** March 10, 2026
+**Last Updated:** March 18, 2026
 
-**Status:** ✅ Complete - 17 Days DSA Journey Tracked
+**Status:** ✅ Complete - 19 Days DSA Journey Tracked
