@@ -25,6 +25,7 @@ A comprehensive 9-day DSA learning program covering fundamental algorithms, arra
 17. [Day 17: Merge Sort](#day-17-merge-sort)
 18. [Day 18: Quick Sort](#day-18-quick-sort)
 19. [Day 19: Duplicate Elements in List](#day-19-duplicate-elements-in-list)
+20. [Day 20: Right Rotate Array by 1](#day-20-right-rotate-array-by-1)
 
 ---
 
@@ -441,6 +442,25 @@ Query 5: Output = 2
 
 ---
 
+## Day 20: Right Rotate Array by 1
+
+**File:** `day20/Right_Rotate_Array_by_1.py`
+
+**Concept:** Rotating an array to the right by one position, where the last element moves to the first position.
+
+**Algorithm:**
+
+1. Store the last element of the array.
+2. Iterate from the end to the beginning (backwards), shifting each element one position to the right.
+3. Place the stored last element at the first position (index 0).
+
+**Complexity:**
+
+- Time Complexity: O(n)
+- Space Complexity: O(1)
+
+---
+
 ## 📊 Learning Progress Summary
 
 | Day | Topic                  | Difficulty  | Concepts Covered            |
@@ -464,6 +484,7 @@ Query 5: Output = 2
 | 17  | Merge Sort             | ⭐⭐⭐ Hard | Divide and Conquer, Sorting |
 | 18  | Quick Sort             | ⭐⭐⭐ Hard | Divide and Conquer, Pivot   |
 | 19  | Duplicate Elements     | ⭐⭐ Medium | Frequency Counting, Map     |
+| 20  | Right Rotate Array     | ⭐⭐ Medium | Array Manipulation, Shifting |
 
 ---
 
@@ -557,6 +578,8 @@ DDSA/
 │   └── Quick_sort.py
 ├── day19/
 │   └── Find_dulplicate_element _in_list.py
+├── day20/
+│   └── Right_Rotate_Array_by_1.py
 └── README.md (This file)
 ```
 
@@ -594,6 +617,6 @@ Feel free to add improvements, optimizations, or additional problems to enhance 
 
 ---
 
-**Last Updated:** March 18, 2026
+**Last Updated:** March 19, 2026
 
-**Status:** ✅ Complete - 19 Days DSA Journey Tracked
+**Status:** ✅ Complete - 20 Days DSA Journey Tracked
