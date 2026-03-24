@@ -26,6 +26,7 @@ A comprehensive 9-day DSA learning program covering fundamental algorithms, arra
 18. [Day 18: Quick Sort](#day-18-quick-sort)
 19. [Day 19: Duplicate Elements in List](#day-19-duplicate-elements-in-list)
 20. [Day 20: Right Rotate Array by 1](#day-20-right-rotate-array-by-1)
+21. [Day 21: Rotate Array by K](#day-21-rotate-array-by-k)
 
 ---
 
@@ -461,6 +462,27 @@ Query 5: Output = 2
 
 ---
 
+## Day 21: Rotate Array by K
+
+**File:** `day21/k_place.py`
+
+**Concept:** Rotating an array to the right by `k` positions using an efficient in-place algorithm.
+
+**Algorithm:**
+
+1.  Reverse the entire array.
+2.  Reverse the first `k` elements.
+3.  Reverse the remaining `n-k` elements.
+
+**Why this works:** It achieves O(1) space complexity by performing in-place reversals. Reversing the whole array moves the last `k` elements to the front (though in reverse order), and then reversing the sub-segments corrects their orientation.
+
+**Complexity:**
+
+- Time Complexity: O(n)
+- Space Complexity: O(1)
+
+---
+
 ## 📊 Learning Progress Summary
 
 | Day | Topic                  | Difficulty  | Concepts Covered            |
@@ -485,6 +507,7 @@ Query 5: Output = 2
 | 18  | Quick Sort             | ⭐⭐⭐ Hard | Divide and Conquer, Pivot   |
 | 19  | Duplicate Elements     | ⭐⭐ Medium | Frequency Counting, Map     |
 | 20  | Right Rotate Array     | ⭐⭐ Medium | Array Manipulation, Shifting |
+| 21  | Rotate Array by K      | ⭐⭐ Medium | Array Reversal, In-place     |
 
 ---
 
@@ -580,6 +603,8 @@ DDSA/
 │   └── Find_dulplicate_element _in_list.py
 ├── day20/
 │   └── Right_Rotate_Array_by_1.py
+├── day21/
+│   └── k_place.py
 └── README.md (This file)
 ```
 
@@ -617,6 +642,6 @@ Feel free to add improvements, optimizations, or additional problems to enhance 
 
 ---
 
-**Last Updated:** March 19, 2026
+**Last Updated:** March 24, 2026
 
-**Status:** ✅ Complete - 20 Days DSA Journey Tracked
+**Status:** ✅ Complete - 21 Days DSA Journey Tracked
