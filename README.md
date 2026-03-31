@@ -27,6 +27,9 @@ A comprehensive 9-day DSA learning program covering fundamental algorithms, arra
 19. [Day 19: Duplicate Elements in List](#day-19-duplicate-elements-in-list)
 20. [Day 20: Right Rotate Array by 1](#day-20-right-rotate-array-by-1)
 21. [Day 21: Rotate Array by K](#day-21-rotate-array-by-k)
+22. [Day 22: Move Zeroes to End](#day-22-move-zeroes-to-end)
+23. [Sunday Revision: Array Analysis](#sunday-revision-array-analysis)
+24. [Night Revision: Logic Reinforcement](#night-revision-logic-reinforcement)
 
 ---
 
@@ -481,6 +484,52 @@ Query 5: Output = 2
 - Time Complexity: O(n)
 - Space Complexity: O(1)
 
+## Day 22: Move Zeroes to End
+
+**Files:** `day22/Put_zero_end.py`, `day22/Optimum_solution.py`
+
+**Concept:** Moving all zeros in an array to the end while maintaining the relative order of non-zero elements.
+
+### Optimal Approach (In-Place)
+
+- Use a pointer `i` to track the position of the next non-zero element.
+- Iterate through the array with pointer `j`.
+- When a non-zero element is found at `j`, swap it with the element at `i` and increment `i`.
+- **Time Complexity:** O(n) | **Space Complexity:** O(1)
+
+**Example:**
+
+```array
+Input: [1, 0, 2, 4, 3, 0, 0, 3, 5, 1]
+Output: [1, 2, 4, 3, 3, 5, 1, 0, 0, 0]
+```
+
+---
+
+## Sunday Revision: Array Analysis
+
+**Files:** `sunday_reswise/Second_largest.py`, `sunday_reswise/Check_array.py`
+
+**Concept:** Weekend review focusing on array properties and searching.
+
+### Second Largest Element
+
+- Track `largest` and `second_largest` in a single pass.
+- Initialize both as negative infinity.
+- Update `second_largest` when a new `largest` is found or when an element is between the current two.
+- **Time Complexity:** O(n) | **Space Complexity:** O(1)
+
+---
+
+## Night Revision: Logic Reinforcement
+
+**Files:** `night_revision/Almstrong.py`, `night_revision/palindrome.py`
+
+**Concept:** Quick daily review of core mathematical algorithms to reinforce logic.
+
+- **Armstrong Number:** Digit-wise power sum verification.
+- **Palindrome:** Number reversal and comparison.
+
 ---
 
 ## 📊 Learning Progress Summary
@@ -508,6 +557,9 @@ Query 5: Output = 2
 | 19  | Duplicate Elements     | ⭐⭐ Medium | Frequency Counting, Map     |
 | 20  | Right Rotate Array     | ⭐⭐ Medium | Array Manipulation, Shifting |
 | 21  | Rotate Array by K      | ⭐⭐ Medium | Array Reversal, In-place     |
+| 22  | Move Zeroes to End     | ⭐⭐ Medium | Two-Pointer Swap             |
+| Rev | Second Largest         | ⭐⭐ Medium | Single Pass Tracking         |
+| Rev | Armstrong/Palindrome   | ⭐ Easy     | Logic Reinforcement          |
 
 ---
 
@@ -605,6 +657,15 @@ DDSA/
 │   └── Right_Rotate_Array_by_1.py
 ├── day21/
 │   └── k_place.py
+├── day22/
+│   ├── Optimum_solution.py
+│   └── Put_zero_end.py
+├── sunday_reswise/
+│   ├── Check_array.py
+│   └── Second_largest.py
+├── night_revision/
+│   ├── Almstrong.py
+│   └── palindrome.py
 └── README.md (This file)
 ```
 
@@ -642,6 +703,6 @@ Feel free to add improvements, optimizations, or additional problems to enhance 
 
 ---
 
-**Last Updated:** March 24, 2026
+**Last Updated:** March 31, 2026
 
-**Status:** ✅ Complete - 21 Days DSA Journey Tracked
+**Status:** ✅ In Progress - 22 Days + Revisions Tracked
