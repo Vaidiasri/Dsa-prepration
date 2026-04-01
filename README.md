@@ -28,8 +28,9 @@ A comprehensive 9-day DSA learning program covering fundamental algorithms, arra
 20. [Day 20: Right Rotate Array by 1](#day-20-right-rotate-array-by-1)
 21. [Day 21: Rotate Array by K](#day-21-rotate-array-by-k)
 22. [Day 22: Move Zeroes to End](#day-22-move-zeroes-to-end)
-23. [Sunday Revision: Array Analysis](#sunday-revision-array-analysis)
-24. [Night Revision: Logic Reinforcement](#night-revision-logic-reinforcement)
+23. [Day 23: Linear Search](#day-23-linear-search)
+24. [Sunday Revision: Array Analysis](#sunday-revision-array-analysis)
+25. [Night Revision: Logic Reinforcement](#night-revision-logic-reinforcement)
 
 ---
 
@@ -506,6 +507,26 @@ Output: [1, 2, 4, 3, 3, 5, 1, 0, 0, 0]
 
 ---
 
+## Day 23: Linear Search
+
+**File:** `day23/LinearSearch.py`
+
+**Concept:** Searching for an element in an array by checking each element sequentially.
+
+**Algorithm:**
+
+1. Iterate through the array from the first element to the last.
+2. Compare each element with the target value.
+3. If a match is found, return the index.
+4. If the loop finishes without a match, return -1.
+
+**Complexity:**
+
+- Time Complexity: O(n)
+- Space Complexity: O(1)
+
+---
+
 ## Sunday Revision: Array Analysis
 
 **Files:** `sunday_reswise/Second_largest.py`, `sunday_reswise/Check_array.py`
@@ -558,6 +579,7 @@ Output: [1, 2, 4, 3, 3, 5, 1, 0, 0, 0]
 | 20  | Right Rotate Array     | ⭐⭐ Medium | Array Manipulation, Shifting |
 | 21  | Rotate Array by K      | ⭐⭐ Medium | Array Reversal, In-place     |
 | 22  | Move Zeroes to End     | ⭐⭐ Medium | Two-Pointer Swap             |
+| 23  | Linear Search          | ⭐ Easy     | Sequential Search            |
 | Rev | Second Largest         | ⭐⭐ Medium | Single Pass Tracking         |
 | Rev | Armstrong/Palindrome   | ⭐ Easy     | Logic Reinforcement          |
 
@@ -660,6 +682,8 @@ DDSA/
 ├── day22/
 │   ├── Optimum_solution.py
 │   └── Put_zero_end.py
+├── day23/
+│   └── LinearSearch.py
 ├── sunday_reswise/
 │   ├── Check_array.py
 │   └── Second_largest.py
@@ -703,6 +727,6 @@ Feel free to add improvements, optimizations, or additional problems to enhance 
 
 ---
 
-**Last Updated:** March 31, 2026
+**Last Updated:** April 1, 2026
 
-**Status:** ✅ In Progress - 22 Days + Revisions Tracked
+**Status:** ✅ In Progress - 23 Days + Revisions Tracked

@@ -1,5 +1,5 @@
 nums=[1, 2, 3, 4, 5]
-target=4
+target=6
 def LinearSearch(nums,target):
     for i in range(len(nums)):
         if nums[i]==target:
